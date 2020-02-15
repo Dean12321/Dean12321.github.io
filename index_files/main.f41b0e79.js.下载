@@ -100,82 +100,18 @@ function(e, t) {
         assets: {
             defaultLogo: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/0/75/a4db471f76b172915f98f44a9f6f0.png"
         },
-        sellers: ["macOS", "iOS", "cow", "general"],
+        sellers: ["iOS", "general"],
         listType: {
-            macOS: "macOS",
             iOS: "iOS",
-            cow: "macOS",
             general: "macOS"
         },
         headers: {
-            macOS: "叶子应用列表",
             iOS: "应用列表",
-            cow: "奶牛应用列表",
             general: "应用列表"
         },
-        cards: {
-            macOS: [{
-                img: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/7/04/693933bcef261412f539164fb9778.jpeg?x-oss-process=image/resize,h_256,w_256",
-                title: "公众号",
-                description: ["关注叶子公众号", "获取详细软件教程"]
-            },
-            {
-                img: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/7/83/af7f18c5b87c3864fda4503b85e7f.jpeg?x-oss-process=image/resize,h_256,w_256",
-                title: "个人号",
-                description: ["关注叶子私人号", "获取贴心售后服务"]
-            }],
-            iOS: [{
-                img: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/7/04/693933bcef261412f539164fb9778.jpeg?x-oss-process=image/resize,h_256,w_256",
-                title: "公众号",
-                description: ["关注叶子公众号", "获取详细软件教程"]
-            }],
-            cow: [{
-                img: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/e/3a/8086544c1b1e5e6ebc159ef6bf6e8.jpeg?x-oss-process=image/resize,h_256,w_256",
-                title: "个人号",
-                description: ["关注奶牛私人号", "获取贴心售后服务"]
-            }],
-            general: [{
-                img: "https://oss-cdn.yeziapp.com/projects/clover-server/md5/yezi/7/04/693933bcef261412f539164fb9778.jpeg?x-oss-process=image/resize,h_256,w_256",
-                title: "公众号",
-                description: ["关注公众号", "获取详细软件教程"]
-            }]
-        },
-        links: {
-            macOS: [{
-                href: "http://buy.yeziapp.com",
-                name: "官方店铺"
-            },
-            {
-                href: "http://mac.yeziapp.com",
-                name: "登录器"
-            },
-            {
-                href: "http://jc.yeziapp.com",
-                name: "使用教程"
-            }],
-            cow: [{
-                href: "https://nainiuapp.taobao.com",
-                name: "官方店铺"
-            },
-            {
-                href: "http://nainiuapp.com/1.zip",
-                name: "登录器"
-            },
-            {
-                href: "http://nainiuapp.com/niu.jpeg",
-                name: "使用教程"
-            }],
-            general: [{
-                href: "http://jc.yeziapp.com",
-                name: "使用教程"
-            }]
-        },
-        copyright: {
-            macOS: {
-                name: "叶子",
-                href: "https://yeziapp.com"
-            }
-        }
+        
+       
+        
     }
 },
 function(e, t) {
@@ -199,7 +135,7 @@ function(e, t, n) {
                 component: c.a
             }), r.createElement(a.Redirect, {
                 path: "/",
-                to: "/list/macOS"
+                to: "/"
             })))
         })
     }).call(this, n(20)(e))
